@@ -9,3 +9,7 @@
 tony = Player.create(name: "Tony")
 matt = Player.create(name: "Matt")
 alan = Player.create(name: "Alan")
+
+s1 = Score.create(points: 10, player_id: 1)
+s2 = Score.create(points: 90, player_id: 3)
+s3 = Score.create(points: 50, player_id: 2)

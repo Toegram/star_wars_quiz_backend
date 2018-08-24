@@ -1,3 +1,3 @@
 class ScoreSerializer < ActiveModel::Serializer
-  attributes :id, :points
+  attributes :id, :points, :player_id
 end
